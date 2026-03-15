@@ -14,6 +14,9 @@
     <img alt="License" src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" height="25" />
 </a>
 
+**🎉 This repository accompanies our accepted CVPR 2026 paper**  
+**Final average review score: 5.5**
+
 **Codebook-based evaluation toolkit for generative image models using TiTok discrete tokenization.**
 
 </div>
@@ -22,7 +25,11 @@
 
 ## 🌟 Overview
 
-This repository provides two complementary evaluation metrics based on [TiTok](https://github.com/bytedance/1d-tokenizer) discrete codebooks:
+This repository contains the official implementation of our **CVPR 2026 accepted paper**,  
+**"Evaluating Generative Models via One-Dimensional Code Distributions"**  
+with a **final average review score of 5.5**.
+
+It provides two complementary evaluation metrics based on [TiTok](https://github.com/bytedance/1d-tokenizer) discrete codebooks:
 
 | Metric | Full Name | Level | Description | Direction |
 |--------|-----------|-------|-------------|-----------|
@@ -42,7 +49,7 @@ This repository provides two complementary evaluation metrics based on [TiTok](h
 
 ## 🗂️ Project Structure
 
-```
+```text
 CHD/
 ├── README.md               # This file
 ├── evaluate.py             # Unified evaluation entry point
@@ -68,9 +75,6 @@ CHD/
 ├── checkpoints/            # Pre-trained model weights (download below)
 └── dataset/
     └── README.md           # VisForm benchmark dataset description
-```
-
----
 
 ## 🚀 Quick Start
 
