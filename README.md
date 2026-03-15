@@ -27,7 +27,6 @@
 
 This repository contains the official implementation of our **CVPR 2026 accepted paper**,  
 **"Evaluating Generative Models via One-Dimensional Code Distributions"**  
-with a **final average review score of 5.5**.
 
 It provides two complementary evaluation metrics based on [TiTok](https://github.com/bytedance/1d-tokenizer) discrete codebooks:
 
